@@ -1,0 +1,39 @@
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 STANDARD QUEUE ----------
+
+Sredni czas oczekiwania na obsluge Wq = 0.7442995833602256	[Teoretycznie: Wq = 0.75 ]
+Sredni czas przejscia przez system W = 0.9942995833602224	[Teoretycznie: W = 1.0 ]
+Srednia liczba klientow w kolejce Lq (t_2):2.1710598605547515	[Teoretycznie: Lq = 2.25 ]
+Srednia liczba klientow w systemie L (t): 2.9229887007540523	[Teoretycznie: L = 3.0 ]
+p0 = 0.2480711598007006
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 STANDARD QUEUE ----------
+
+Sredni czas oczekiwania na obsluge Wq = 0.2501401120067009	[Teoretycznie: Wq = 0.25 ]
+Sredni czas przejscia przez system W = 0.5001401120067005	[Teoretycznie: W = 0.5 ]
+Srednia liczba klientow w kolejce Lq (t_2):0.49237943878573825	[Teoretycznie: Lq = 0.5 ]
+Srednia liczba klientow w systemie L (t): 0.9980409589775092	[Teoretycznie: L = 1.0 ]
+p0 = 0.4943384798082245
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 STANDARD QUEUE ----------
+
+Sredni czas oczekiwania na obsluge Wq = 0.08752248708793614	[Teoretycznie: Wq = 0.08333333333333333 ]
+Sredni czas przejscia przez system W = 0.33752248708793614	[Teoretycznie: W = 0.3333333333333333 ]
+Srednia liczba klientow w kolejce Lq (t_2):0.08202713189544455	[Teoretycznie: Lq = 0.08333333333333333 ]
+Srednia liczba klientow w systemie L (t): 0.33527541894967705	[Teoretycznie: L = 0.3333333333333333 ]
+p0 = 0.7467517129457704
+

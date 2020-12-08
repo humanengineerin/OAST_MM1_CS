@@ -1,0 +1,39 @@
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE ----------
+
+Sredni czas oczekiwania na obsluge Wq = 0.9921148567845515	[Teoretycznie: Wq = 1.0 ]
+Sredni czas przejscia przez system W = 1.242114856784561	[Teoretycznie: W = 1.25 ]
+Srednia liczba klientow w kolejce Lq (t_2):2.973885500191865	[Teoretycznie: Lq = 3.0 ]
+Srednia liczba klientow w systemie L (t): 3.7261587814203825	[Teoretycznie: L = 3.75 ]
+Prawdopodobiestwo, ¿e serwer jest zajêty obs³ug¹ IMAGINARY (wzgl. czasu symulacji): 0.24772671877147598
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE ----------
+
+Sredni czas oczekiwania na obsluge Wq = 0.496183286930197	[Teoretycznie: Wq = 0.5 ]
+Sredni czas przejscia przez system W = 0.746183286930196	[Teoretycznie: W = 0.75 ]
+Srednia liczba klientow w kolejce Lq (t_2):1.013443529602483	[Teoretycznie: Lq = 1.0 ]
+Srednia liczba klientow w systemie L (t): 1.5174060247965713	[Teoretycznie: L = 1.5 ]
+Prawdopodobiestwo, ¿e serwer jest zajêty obs³ug¹ IMAGINARY (wzgl. czasu symulacji): 0.4960375048059121
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE ----------
+
+Sredni czas oczekiwania na obsluge Wq = 0.34244571127195556	[Teoretycznie: Wq = 0.3333333333333333 ]
+Sredni czas przejscia przez system W = 0.5924457112719556	[Teoretycznie: W = 0.5833333333333334 ]
+Srednia liczba klientow w kolejce Lq (t_2):0.34289931081997194	[Teoretycznie: Lq = 0.3333333333333333 ]
+Srednia liczba klientow w systemie L (t): 0.5945574539977015	[Teoretycznie: L = 0.5833333333333334 ]
+Prawdopodobiestwo, ¿e serwer jest zajêty obs³ug¹ IMAGINARY (wzgl. czasu symulacji): 0.7483418568222739
+
