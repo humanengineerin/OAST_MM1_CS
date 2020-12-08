@@ -12,43 +12,50 @@ def gen_t_przyjscia(lam):
 
     return -np.log(1-np.random.random())/lam
 
+
 def obl_sr_licz_kl_w_buf():
-    x=1
+    x=1 # TODO
+
 
 def obl_sr_licz_kl_w_sys():
-    x=1
+    x=1 # TODO
+
 
 def obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, zdarzen):
     suma = 0
     for i in range(zdarzen):
         suma += (czasy_rozpoczecia[i] - czasy_przyjscia[i])
 
-    wynik = suma / zdarzen
 
-    return wynik
+    return suma / zdarzen
 
 def obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, zdarzen, mi):
     suma = 0
 
     for i in range(zdarzen):
         suma += (czasy_rozpoczecia[i] - czasy_przyjscia[i] + 1/mi)
-    wynik = suma / zdarzen
 
-    return wynik
+    return suma / zdarzen
 
 ####################################### Inicjalizacja zmiennych
 
-lam = 4
-mi = 8
-ro = lam/mi
+lam = 3
+mi = 4
 
 max_czas_symulacji = 10000
+max_zdarzen = 1000
 
-acs = 0.0                   # aktualny czas symulacji
+acs = 0.0                                   # aktualny czas symulacji
 
-obsluzonych_zdarzen = 0                    # liczba obsluzonych zdarzen (Real)
-czasy_przyjscia = []                  # czasy przyjścia do obsługi (Real)
-czasy_rozpoczecia = []                   # czasy rozpoczęcia obsługi (Real)
+obsluzonych_zdarzen = 0                     # liczba obsluzonych zdarzen (Real)
+czas_p_zero = 0                             # suma czasu trwania stanu p0
+zdarzen_w_kolejce = 0                       # liczba zdarzen w kolejce
+
+czasy_przyjscia = []                        # czasy przyjścia do obsługi (Real)
+czasy_rozpoczecia = []                      # czasy rozpoczęcia obsługi (Real)
+
+suma_zdarzen = 0                            # obl. sr. w kolejce (test)
+count = 0                                   # obl. sr. w kolejce (test)
 
 tz = ["PRZYJSCIE_REAL", "PRZYJSCIE_IMAG"]
 
@@ -58,11 +65,23 @@ lista = ListaZdarzen.ListaZdarzen(lista_zdarzen)    # Obiekt listy zdarzen
 # Inicjalizuje listę pierwszym zdarzeniem
 
 lista.put(tz[0], 0, gen_t_obslugi(mi), gen_t_przyjscia(lam))
+
+# zapisuje kiedy przyjdzie kolejny klient
 odst_mdz_zgl = lista_zdarzen[-1].t_nastepne
 
+print("Rozpoczynam symulację... Kolejka MM1 - Standardowa")
+print()
+print("mi = " + str(mi))
+print("lam = " + str(lam))
+print("max czas symulacji = " + str(max_czas_symulacji))
+print()
+
+#while obsluzonych_zdarzen <= max_zdarzen:
 while acs <= max_czas_symulacji:
 
-    lista.put(tz[0], odst_mdz_zgl, gen_t_obslugi(mi), gen_t_przyjscia(lam))
+    if lista_zdarzen[-1].t_przyjscia < max_czas_symulacji:
+        lista.put(tz[0], odst_mdz_zgl, gen_t_obslugi(mi), gen_t_przyjscia(lam))
+
     odst_mdz_zgl = lista_zdarzen[-1].t_nastepne + lista_zdarzen[-1].t_przyjscia
     lista.sortuj_liste(lista_zdarzen)
     zdarzen_w_kolejce = 0
@@ -71,35 +90,44 @@ while acs <= max_czas_symulacji:
         if lista_zdarzen[i].t_przyjscia <= acs:
             zdarzen_w_kolejce += 1
 
-    if len(lista_zdarzen) > 0 and acs >= lista_zdarzen[0].t_przyjscia:
+    # Testowo - do obliczenia sr. klien. w kolejce
+    suma_zdarzen += zdarzen_w_kolejce
+    count += 1
 
-        zdarzenie = lista.get()
-        zdarzen_w_kolejce -= 1
+    if zdarzen_w_kolejce > 0 and acs >= lista_zdarzen[0].t_przyjscia:
+
+        zdarzenie = lista.get()         # Obsługuje zdarzenie, usuwam z listy zdarzeń
+        zdarzen_w_kolejce -= 1          # Czy potrzebne?
+        obsluzonych_zdarzen += 1
+
         czasy_przyjscia.append(zdarzenie.t_przyjscia)
         czasy_rozpoczecia.append(acs)
-        obsluzonych_zdarzen += 1
-        acs += zdarzenie.t_obslugi
 
-        print("Aktualny czas (rozp. obslugi): " + str(acs))
-        print("Czas przyjscia: " + str(zdarzenie.t_przyjscia))
-        print("Czas do następnego zdarzenia: " + str(zdarzenie.t_nastepne))
-        print("Czas obsługi: " + str(zdarzenie.t_obslugi))
-        print()
+        acs += zdarzenie.t_obslugi      # Aktualny czas zwiększam o czas obsługi zdarzenia
+
+        # print("Aktualny czas (rozp. obslugi): " + str(acs))
+        # print("Czas przyjscia: " + str(zdarzenie.t_przyjscia))
+        # print("Czas do następnego zdarzenia: " + str(zdarzenie.t_nastepne))
+        # print("Czas obsługi: " + str(zdarzenie.t_obslugi))
+        # print()
+
     else:
         lista.sortuj_liste(lista_zdarzen)
-        acs = lista_zdarzen[0].t_przyjscia
-        print("NIE OBSLUGUJE ZDARZENIA!!!")
+        czas_p_zero += lista_zdarzen[0].t_przyjscia - acs   # licze czas trwania stanu p0
+        acs = lista_zdarzen[0].t_przyjscia                  # aktualny czas ustawiam = czas przyjscia nastepnego zdarzenia
 
-    print("Na liście znajduje się: " + str(zdarzen_w_kolejce) + " zdarzenia")
-
-    print("Czas po obsłudze: " + str(acs))
+    #     print("NIE OBSLUGUJE ZDARZENIA!!!")
+    #
+    # print("Na liście znajduje się: " + str(zdarzen_w_kolejce) + " zdarzenia")
+    #
+    # print("Czas po obsłudze: " + str(acs))
 
 print("-" * 40)
 print()
 print("Sredni czas oczekiwania na obsluge Wq = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen)))
 print("Sredni czas przejscia przez system W = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi)))
-print("-" * 40)
+print("Srednia liczba zdarzen w kolejce (test):" + str(suma_zdarzen/count))
+print("p0 = " + str(czas_p_zero/acs))
 print()
-# Niestety ale ten kod generuje dużo za dużo zdarzeń. Przydałoby się to usprawnić
-for i in range(200):
-    print(lista_zdarzen[i].t_przyjscia, end =", ")
+print("-" * 40)
+
