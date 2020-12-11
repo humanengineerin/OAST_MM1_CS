@@ -47,12 +47,12 @@ def obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, zdarzen, mi)
 
 ####################################### Inicjalizacja zmiennych
 
-lam = 1
+lam = 3
 mi = 4
 ro = lam/mi
 
 max_czas_symulacji = 10000
-max_zdarze = 1000
+max_zdarzen = 1000
 
 acs = 0.0                                   # aktualny czas symulacji
 
@@ -141,11 +141,11 @@ while acs <= max_czas_symulacji:
 
 print("-" * 40)
 print()
-print("Sredni czas oczekiwania na obsluge Wq = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro / (lam * (1-ro))) + " ]")
-print("Sredni czas przejscia przez system W = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str((2 - ro) * ro / (lam * (1 - ro))) + " ]")
-print("Srednia liczba klientow w kolejce Lq (t_2):" + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro / (1 - ro)) + " ]")
-print("Srednia liczba klientow w systemie L (t): " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str((2 - ro) * ro / (1 - ro)) + " ]")
-print("Pr-biestwo, że serwer jest zajęty obsługą IMAGINARY (wzgl. czasu symulacji): " + str(czas_obslugi_imag/acs))
+print("Sredni czas oczekiwania na obsluge E[W] = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro / (lam * (1-ro))) + " ]")
+print("Sredni czas przejscia przez system E[T] = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str((2 - ro) * ro / (lam * (1 - ro))) + " ]")
+print("Srednia liczba klientow w buforze E[Q] = " + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro / (1 - ro)) + " ]")
+print("Srednia liczba klientow w systemie E[N] = " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str((2 - ro) * ro / (1 - ro)) + " ]")
+print("Prawdopodobiestwo, ze serwer jest zajety obslugą IMAGINARY (wzgl. czasu symulacji) = " + str(czas_obslugi_imag/acs))
 
 print()
 print("-" * 40)
@@ -159,8 +159,8 @@ do_pliku.write("lam = " + str(lam) + "\n")
 do_pliku.write("max czas symulacji = " + str(max_czas_symulacji) + "\n")
 
 do_pliku.write("-" * 10 + " WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE " + "-" * 10 + "\n\n")
-do_pliku.write("Sredni czas oczekiwania na obsluge Wq = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro / (lam * (1-ro))) + " ]\n")
-do_pliku.write("Sredni czas przejscia przez system W = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str((2 - ro) * ro / (lam * (1 - ro))) + " ]\n")
-do_pliku.write("Srednia liczba klientow w kolejce Lq (t_2):" + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro / (1 - ro)) + " ]\n")
-do_pliku.write("Srednia liczba klientow w systemie L (t): " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str((2 - ro) * ro / (1 - ro)) + " ]\n")
-do_pliku.write("Prawdopodobiestwo, że serwer jest zajęty obsługą IMAGINARY (wzgl. czasu symulacji): " + str(czas_obslugi_imag/acs) + "\n\n")
+do_pliku.write("Sredni czas oczekiwania na obsluge E[W] = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro / (lam * (1-ro))) + " ]\n")
+do_pliku.write("Sredni czas przejscia przez system E[T] = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str((2 - ro) * ro / (lam * (1 - ro))) + " ]\n")
+do_pliku.write("Srednia liczba klientow w buforze E[Q] = " + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro / (1 - ro)) + " ]\n")
+do_pliku.write("Srednia liczba klientow w systemie E[N] = " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str((2 - ro) * ro / (1 - ro)) + " ]\n")
+do_pliku.write("Prawdopodobiestwo, ze serwer jest zajety obslugą IMAGINARY (wzgl. czasu symulacji) = " + str(czas_obslugi_imag/acs) + "\n\n")

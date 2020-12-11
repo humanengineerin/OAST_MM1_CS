@@ -52,7 +52,7 @@ mi = 4
 ro = lam/mi
 
 max_czas_symulacji = 10000
-max_zdarzen = 1000
+max_zdarzen = 2200
 
 acs = 0.0                                   # aktualny czas symulacji
 
@@ -79,11 +79,11 @@ lista.put(tz[0], 0, gen_t_obslugi(mi), gen_t_przyjscia(lam))
 # zapisuje kiedy przyjdzie kolejny klient
 odst_mdz_zgl = lista_zdarzen[-1].t_nastepne
 
-print("Kolejka MM1 - Standardowa")
-print()
-print("mi = " + str(mi))
-print("lam = " + str(lam))
-print("max czas symulacji = " + str(max_czas_symulacji))
+print("Kolejka MM1 - Standardowa\n")
+print("\tmi = " + str(mi))
+print("\tlam = " + str(lam))
+print("\tro = " + str(lam/mi) + "\n")
+print("\tmax czas symulacji = " + str(max_czas_symulacji))
 print("Rozpoczynam symulację... \n")
 
 #while obsluzonych_zdarzen <= max_zdarzen:
@@ -138,11 +138,11 @@ while acs <= max_czas_symulacji:
 
 print("-" * 40)
 print()
-print("Sredni czas oczekiwania na obsluge Wq = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro ** 2 / (lam * (1 - ro))) + " ]")
-print("Sredni czas przejscia przez system W = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str(ro / (lam * (1 - ro))) + " ]")
-print("Srednia liczba klientow w kolejce Lq (t_2):" + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro ** 2 / (1 - ro)) + " ]")
-print("Srednia liczba klientow w systemie L (t): " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str(ro / (1 - ro)) + " ]")
-print("p0 = " + str(czas_p_zero/acs))
+print("Sredni czas oczekiwania na obsluge E[W] = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro ** 2 / (lam * (1 - ro))) + " ]")
+print("Sredni czas przejscia przez system E[T] = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str(ro / (lam * (1 - ro))) + " ]")
+print("Srednia liczba klientow w buforze E[Q] = " + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro ** 2 / (1 - ro)) + " ]")
+print("Srednia liczba klientow w systemie E[N] = " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str(ro / (1 - ro)) + " ]")
+print("Prawdopodobienstwo p0 = " + str(czas_p_zero/acs))
 print()
 print("-" * 40)
 
@@ -150,16 +150,18 @@ print("-" * 40)
 do_pliku = open("MM1_Standard_Wyniki.txt", 'a')
 
 do_pliku.write("-" * 10 + " DANE SYMULACJI " + "-" * 10 + "\n\n")
-do_pliku.write("mi = " + str(mi) + "\n")
-do_pliku.write("lam = " + str(lam) + "\n")
-do_pliku.write("max czas symulacji = " + str(max_czas_symulacji) + "\n")
+do_pliku.write("\tmi = " + str(mi) + "\n")
+do_pliku.write("\tlam = " + str(lam) + "\n")
+do_pliku.write("\tro = " + str(lam/mi) + "\n")
+do_pliku.write("\tmax czas symulacji = " + str(max_czas_symulacji) + "\n")
+
 
 do_pliku.write("-" * 10 + " WYNIKI SYMULACJI - MM1 STANDARD QUEUE " + "-" * 10 + "\n\n")
-do_pliku.write("Sredni czas oczekiwania na obsluge Wq = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro ** 2 / (lam * (1 - ro))) + " ]\n")
-do_pliku.write("Sredni czas przejscia przez system W = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str(ro / (lam * (1 - ro))) + " ]\n")
-do_pliku.write("Srednia liczba klientow w kolejce Lq (t_2):" + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro ** 2 / (1 - ro)) + " ]\n")
-do_pliku.write("Srednia liczba klientow w systemie L (t): " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str(ro / (1 - ro)) + " ]\n")
-do_pliku.write("p0 = " + str(czas_p_zero/acs) + "\n\n")
+do_pliku.write("Sredni czas oczekiwania na obsluge E[W] = " + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))             + "\t[Teoretycznie: Wq = " + str(ro ** 2 / (lam * (1 - ro))) + " ]\n")
+do_pliku.write("Sredni czas przejscia przez system E[T] = " + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))     + "\t[Teoretycznie: W = " + str(ro / (lam * (1 - ro))) + " ]\n")
+do_pliku.write("Srednia liczba klientow w buforze E[Q] = " + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))                                  + "\t[Teoretycznie: Lq = " + str(ro ** 2 / (1 - ro)) + " ]\n")
+do_pliku.write("Srednia liczba klientow w systemie E[N] = : " + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))                + "\t[Teoretycznie: L = " + str(ro / (1 - ro)) + " ]\n")
+do_pliku.write("Prawdopodobienstwo p0 = " + str(czas_p_zero/acs) + "\n\n")
 
 
 
