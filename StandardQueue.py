@@ -3,184 +3,176 @@ import numpy as np
 import ListaZdarzen
 
 
-############################## -- Metody generujace losowe czasy
+class StandardQueue:
+    def __init__(self, lam, mi, ro, acs, obsluzonych_zdarzen, czas_p_zero, czas_obslugi_real,
+                 max_czas_symulacji, zdarzen_w_kolejce, czasy_przyjscia, czasy_rozpoczecia, odst_mdz_zgl):
 
-def gen_t_obslugi(mi):
-    return -np.log(1-np.random.random())/mi
+        self.lam = lam
+        self.mi = mi
+        self.ro = ro
+        self.acs = acs
 
+        self.obsluzonych_zdarzen = obsluzonych_zdarzen
+        self.czas_p_zero = czas_p_zero
+        self.czas_obslugi_real = czas_obslugi_real
+        self.zdarzen_w_kolejce = zdarzen_w_kolejce
 
-def gen_t_przyjscia(lam):
-    return -np.log(1-np.random.random())/lam
+        self.max_czas_symulacji = max_czas_symulacji
+        self.czasy_przyjscia = czasy_przyjscia
+        self.czasy_rozpoczecia = czasy_rozpoczecia
 
+        self.lista_zdarzen = list()
+        self.lista = ListaZdarzen.ListaZdarzen(self.lista_zdarzen)  # Obiekt listy zdarzen
 
-def obl_sr_licz_kl_w_buf(lista_czasow, zdarzen_w_czasie, czas_symulacji):
-    suma = 0
-    for i in range(1000, len(zdarzen_w_czasie)-1):
-        suma += ((lista_czasow[i+1] - lista_czasow[i]) * zdarzen_w_czasie[i])
-    return suma/czas_symulacji
+        self.lista_czasow = list()  # test
+        self.ile_zdarzen = list()  # test
 
+        self.odst_mdz_zgl = odst_mdz_zgl
 
-def obl_sr_licz_kl_w_sys(lista_czasow, zdarzen_w_czasie, obsluga_real, czas_symulacji):
-    wynik = obl_sr_licz_kl_w_buf(lista_czasow, zdarzen_w_czasie, czas_symulacji) + obsluga_real/czas_symulacji
-    return wynik
+##############################
+# Metody generujace losowe czasy
 
+    def gen_t_obslugi(self):
+        return -np.log(1 - np.random.random()) / self.mi
 
-def obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, zdarzen):
-    suma = 0
-    for i in range(zdarzen):
-        suma += (czasy_rozpoczecia[i] - czasy_przyjscia[i])
-    return suma / zdarzen
+    def gen_t_przyjscia(self):
+        return -np.log(1 - np.random.random()) / self.lam
 
+    def obl_sr_licz_kl_w_buf(self):
+        suma = 0
+        for i in range(1000, len(self.ile_zdarzen) - 1):
+            suma += ((self.lista_czasow[i + 1] - self.lista_czasow[i]) * self.ile_zdarzen[i])
+        return suma / self.acs
 
-def obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, zdarzen, mi):
-    suma = 0
-    for i in range(zdarzen):
-        suma += (czasy_rozpoczecia[i] - czasy_przyjscia[i] + 1/mi)
-    return suma / zdarzen
+    def obl_sr_licz_kl_w_sys(self):
+        wynik = self.obl_sr_licz_kl_w_buf() + self.czas_obslugi_real / self.acs
+        return wynik
 
+    def obl_sr_czas_ocz_na_obs(self):
+        suma = 0
+        for i in range(self.obsluzonych_zdarzen):
+            suma += (self.czasy_rozpoczecia[i] - self.czasy_przyjscia[i])
+        return suma / self.obsluzonych_zdarzen
 
-####################################### Inicjalizacja zmiennych
+    def obl_sr_czas_przej_przez_sys(self):
+        suma = 0
+        for i in range(self.obsluzonych_zdarzen):
+            suma += (self.czasy_rozpoczecia[i] - self.czasy_przyjscia[i] + 1 / self.mi)
+        return suma / self.obsluzonych_zdarzen
 
-# lam = 1
-print("\nKolejka M/M/1 - Standardowa\n")
-while True:
-    lam = int(input("Proszę wprowadzić wartość lambda wybierając z {1,2,3}: "))
-    if lam in [1, 2, 3]:
-        break
-    else:
-        print("Wybrano nieprawidłową wartość lambda. Proszę spróbować ponownie.")
-mi = 4
-ro = lam/mi
+###########################################
 
-max_czas_symulacji = 6000
-max_zdarzen = 2200
+    def uruchom_MM1(self):
+        print("\n\nKolejka M/M/1 - Standardowa\n")
+        print("\tmi = " + str(self.mi))
+        print("\tlambda = " + str(self.lam))
+        print("\tro = " + str(self.lam / self.mi))
+        print("\tmax czas symulacji = " + str(self.max_czas_symulacji))
+        print("\nRozpoczynam symulację... \n")
 
-acs = 0.0                                   # aktualny czas symulacji
+        tz = ["PRZYJSCIE_REAL", "PRZYJSCIE_IMAG"]
 
-obsluzonych_zdarzen = 0                     # liczba obsluzonych zdarzen (Real)
-czas_p_zero = 0                             # suma czasu trwania stanu p0
-czas_obslugi_real = 0                       # czas obslugi klientow REAL (do klientow w systemie)
-zdarzen_w_kolejce = 0                       # liczba zdarzen w kolejce
+        self.lista.put(tz[0], 0, self.gen_t_obslugi(), self.gen_t_przyjscia())
+        self.odst_mdz_zgl = self.lista_zdarzen[-1].t_nastepne
 
-czasy_przyjscia = []                        # czasy przyjścia do obsługi (Real)
-czasy_rozpoczecia = []                      # czasy rozpoczęcia obsługi (Real)
+        while not self._zakoncz_symulacje():
 
-tz = ["PRZYJSCIE_REAL", "PRZYJSCIE_IMAG"]
+            if self.lista_zdarzen[-1].t_przyjscia < self.max_czas_symulacji:
+                self.lista.put(tz[0], self.odst_mdz_zgl, self.gen_t_obslugi(), self.gen_t_przyjscia())
 
-lista_zdarzen = list()
-lista = ListaZdarzen.ListaZdarzen(lista_zdarzen)    # Obiekt listy zdarzen
+            self.odst_mdz_zgl = self.lista_zdarzen[-1].t_nastepne + self.lista_zdarzen[-1].t_przyjscia
+            self.lista.sortuj_liste(self.lista_zdarzen)
+            zdarzen_w_kolejce = 0
 
-lista_czasow = list()             #test
-ile_zdarzen = list()                # test
+            for i in range(len(self.lista_zdarzen)):
+                if self.lista_zdarzen[i].t_przyjscia < self.acs:
+                    zdarzen_w_kolejce += 1
 
-# Inicjalizuje listę pierwszym zdarzeniem
+            self.lista_czasow.append(self.acs)
+            self.ile_zdarzen.append(zdarzen_w_kolejce)  # test
 
-lista.put(tz[0], 0, gen_t_obslugi(mi), gen_t_przyjscia(lam))
+            if self.acs >= self.lista_zdarzen[0].t_przyjscia:
 
-# zapisuje kiedy przyjdzie kolejny klient
-odst_mdz_zgl = lista_zdarzen[-1].t_nastepne
+                zdarzenie = self.lista.get()  # Obsługuje zdarzenie, usuwam z listy zdarzeń
+                zdarzen_w_kolejce -= 1  # Czy potrzebne?
+                self.obsluzonych_zdarzen += 1
 
-# Wyświetlenie wartości symulacji
-print("\tmi = " + str(mi))
-print("\tlam = " + str(lam))
-print("\tro = " + str(lam/mi))
-print("\tmax czas symulacji = " + str(max_czas_symulacji))
-print("\nRozpoczynam symulację... \n")
+                self.czas_obslugi_real += zdarzenie.t_obslugi
 
-# while obsluzonych_zdarzen <= max_zdarzen:
-while acs <= max_czas_symulacji:
+                self.czasy_przyjscia.append(zdarzenie.t_przyjscia)
+                self.czasy_rozpoczecia.append(self.acs)
 
-    if lista_zdarzen[-1].t_przyjscia < max_czas_symulacji:
-        lista.put(tz[0], odst_mdz_zgl, gen_t_obslugi(mi), gen_t_przyjscia(lam))
+                self.acs += zdarzenie.t_obslugi  # Aktualny czas zwiększam o czas obsługi zdarzenia
 
-    odst_mdz_zgl = lista_zdarzen[-1].t_nastepne + lista_zdarzen[-1].t_przyjscia
-    lista.sortuj_liste(lista_zdarzen)
-    zdarzen_w_kolejce = 0
+                # print("Aktualny czas (rozp. obslugi): " + str(acs))
+                # print("Czas przyjscia: " + str(zdarzenie.t_przyjscia))
+                # print("Czas do następnego zdarzenia: " + str(zdarzenie.t_nastepne))
+                # print("Czas obsługi: " + str(zdarzenie.t_obslugi))
+                # print()
 
-    for i in range (len(lista_zdarzen)):
-        if lista_zdarzen[i].t_przyjscia < acs:
-            zdarzen_w_kolejce += 1
+            else:
+                self.lista.sortuj_liste(self.lista_zdarzen)
+                self.czas_p_zero += self.lista_zdarzen[0].t_przyjscia - self.acs  # licze czas trwania stanu p0
+                self.acs = self.lista_zdarzen[0].t_przyjscia  # aktualny czas ustawiam = czas przyjscia nastepnego zdarzenia
 
-    lista_czasow.append(acs)
-    ile_zdarzen.append(zdarzen_w_kolejce)       # test
+            #     print("NIE OBSLUGUJE ZDARZENIA!!!")
+            #
+            # print("Na liście znajduje się: " + str(zdarzen_w_kolejce) + " zdarzenia")
+            #
+            # print("Czas po obsłudze: " + str(acs))
 
-    if acs >= lista_zdarzen[0].t_przyjscia:
+        # Wyświetlenie wyników
+        print("-"*40 + "\n\nŚredni czas oczekiwania na obsługę E[W] = "
+              + str(self.obl_sr_czas_ocz_na_obs())
+              + "\t[Teoretycznie: Wq = " + str(self.ro ** 2 / (self.lam * (1 - self.ro))) + "]\n"
 
-        zdarzenie = lista.get()         # Obsługuje zdarzenie, usuwam z listy zdarzeń
-        zdarzen_w_kolejce -= 1          # Czy potrzebne?
-        obsluzonych_zdarzen += 1
+              + "Średni czas przejścia przez system E[T] = "
+              + str(self.obl_sr_czas_przej_przez_sys())
+              + "\t[Teoretycznie: W = " + str(self.ro / (self.lam * (1 - self.ro))) + "]\n"
 
-        czas_obslugi_real += zdarzenie.t_obslugi
+              + "Średnia liczba klientów w buforze  E[Q] = "
+              + str(self.obl_sr_licz_kl_w_buf())
+              + "\t[Teoretycznie: Lq = " + str(self.ro ** 2 / (1 - self.ro)) + "]\n"
 
-        czasy_przyjscia.append(zdarzenie.t_przyjscia)
-        czasy_rozpoczecia.append(acs)
+              + "Średnia liczba klientów w systemie E[N] = "
+              + str(self.obl_sr_licz_kl_w_sys())
+              + "\t[Teoretycznie: L = " + str(self.ro / (1 - self.ro)) + "]\n"
 
-        acs += zdarzenie.t_obslugi      # Aktualny czas zwiększam o czas obsługi zdarzenia
+              + "Prawdopodobieństwo p0 = "
+              + str(self.czas_p_zero / self.acs) + "\n\n" + "-"*40)
 
-        # print("Aktualny czas (rozp. obslugi): " + str(acs))
-        # print("Czas przyjscia: " + str(zdarzenie.t_przyjscia))
-        # print("Czas do następnego zdarzenia: " + str(zdarzenie.t_nastepne))
-        # print("Czas obsługi: " + str(zdarzenie.t_obslugi))
-        # print()
+        # Zapis do pliku
+        do_pliku = open("MM1_Standard_Wyniki.txt", 'a')
 
-    else:
-        lista.sortuj_liste(lista_zdarzen)
-        czas_p_zero += lista_zdarzen[0].t_przyjscia - acs   # licze czas trwania stanu p0
-        acs = lista_zdarzen[0].t_przyjscia                  # aktualny czas ustawiam = czas przyjscia nastepnego zdarzenia
+        do_pliku.write("-" * 10 + " DANE SYMULACJI " + "-" * 10 + "\n\n"
+                       + "\tmi = " + str(self.mi) + "\n"
+                       + "\tlam = " + str(self.lam) + "\n"
+                       + "\tro = " + str(self.lam / self.mi) + "\n"
+                       + "\tmax czas symulacji = " + str(self.max_czas_symulacji) + "\n\n"
 
+                       + "-" * 10 + " WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE " + "-" * 10 + "\n\n"
+                       + "Średni czas oczekiwania na obsługę E[W] = "
+                       + str(self.obl_sr_czas_ocz_na_obs())
+                       + "\t[Teoretycznie: Wq = " + str(self.ro ** 2 / (self.lam * (1 - self.ro))) + "]\n"
 
-    #     print("NIE OBSLUGUJE ZDARZENIA!!!")
-    #
-    # print("Na liście znajduje się: " + str(zdarzen_w_kolejce) + " zdarzenia")
-    #
-    # print("Czas po obsłudze: " + str(acs))
+                       + "Średni czas przejścia przez system E[T] = "
+                       + str(self.obl_sr_czas_przej_przez_sys())
+                       + "\t[Teoretycznie: W = " + str(self.ro / (self.lam * (1 - self.ro))) + "]\n"
 
+                       + "Średnia liczba klientów w buforze  E[Q] = "
+                       + str(self.obl_sr_licz_kl_w_buf())
+                       + "\t[Teoretycznie: Lq = " + str(self.ro ** 2 / (1 - self.ro)) + "]\n"
 
-# Wyświetlenie wyników
-print("-" * 40 + "\n\nŚredni czas oczekiwania na obsługę E[W] = "
-      + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))
-      + "\t[Teoretycznie: Wq = " + str(ro ** 2 / (lam * (1 - ro))) + "]\n"
+                       + "Średnia liczba klientów w systemie E[N] = "
+                       + str(self.obl_sr_licz_kl_w_sys())
 
-      + "Średni czas przejścia przez system E[T] = "
-      + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))
-      + "\t[Teoretycznie: W = " + str(ro / (lam * (1 - ro))) + "]\n"
+                       + "\t[Teoretycznie: L = " + str(self.ro / (1 - self.ro)) + "]\n"
+                       + "Prawdopodobieństwo p0 = " + str(self.czas_p_zero / self.acs) + "\n\n")
 
-      + "Średnia liczba klientów w buforze  E[Q] = "
-      + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))
-      + "\t[Teoretycznie: Lq = " + str(ro ** 2 / (1 - ro)) + "]\n"
-
-      + "Średnia liczba klientów w systemie E[N] = "
-      + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))
-      + "\t[Teoretycznie: L = " + str(ro / (1 - ro)) + "]\n"
-
-      + "Prawdopodobieństwo p0 = "
-      + str(czas_p_zero / acs) + "\n\n" + "-" * 40)
-
-
-# Zapis do pliku
-do_pliku = open("MM1_Standard_Wyniki.txt", 'a')
-
-do_pliku.write("-" * 10 + " DANE SYMULACJI " + "-" * 10 + "\n\n"
-               + "\tmi = " + str(mi) + "\n"
-               + "\tlam = " + str(lam) + "\n"
-               + "\tro = " + str(lam / mi) + "\n"
-               + "\tmax czas symulacji = " + str(max_czas_symulacji) + "\n\n"
-
-               + "-" * 10 + " WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE " + "-" * 10 + "\n\n"
-               + "Średni czas oczekiwania na obsługę E[W] = "
-               + str(obl_sr_czas_ocz_na_obs(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen))
-               + "\t[Teoretycznie: Wq = " + str(ro ** 2 / (lam * (1 - ro))) + "]\n"
-
-               + "Średni czas przejścia przez system E[T] = "
-               + str(obl_sr_czas_przej_przez_sys(czasy_przyjscia, czasy_rozpoczecia, obsluzonych_zdarzen, mi))
-               + "\t[Teoretycznie: W = " + str(ro / (lam * (1 - ro))) + "]\n"
-
-               + "Średnia liczba klientów w buforze  E[Q] = "
-               + str(obl_sr_licz_kl_w_buf(lista_czasow, ile_zdarzen, acs))
-               + "\t[Teoretycznie: Lq = " + str(ro ** 2 / (1 - ro)) + "]\n"
-
-               + "Średnia liczba klientów w systemie E[N] = : "
-               + str(obl_sr_licz_kl_w_sys(lista_czasow, ile_zdarzen, czas_obslugi_real, acs))
-
-               + "\t[Teoretycznie: L = " + str(ro / (1 - ro)) + "]\n"
-               + "Prawdopodobieństwo p0 = " + str(czas_p_zero / acs) + "\n\n")
+    def _zakoncz_symulacje(self):
+        przekroczenie = self.acs >= self.max_czas_symulacji
+        if przekroczenie:
+            print("Zakończono symulację ze względu na przekroczenie czasu.")
+            return True
+        else:
+            return False

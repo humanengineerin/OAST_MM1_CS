@@ -1,5 +1,5 @@
-from TestStandardQueue import StandardQueue
-from TestContinuousService import ContinuousService
+from StandardQueue import StandardQueue
+from ContinuousService import ContinuousService
 
 
 if __name__ == "__main__":
@@ -62,7 +62,7 @@ if __name__ == "__main__":
         if kolejka == "1":
             wynik_standard = standard.uruchom_MM1()
             break
-        if kolejka == "2":
+        elif kolejka == "2":
             wynik_continuous = continuous_service.uruchom_MM1CS()
         else:
             print("Wprowadzono nieprawidłowy numer wyboru kolejki. Proszę spróbować ponownie.\n")
