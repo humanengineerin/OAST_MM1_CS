@@ -1,0 +1,1524 @@
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.22634628532543394
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.25188158494885843
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.2580147669699134
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.2666362357846446
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.2778278103972968
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.2238106251750404
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.24399255574285666
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.27537706045083615
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.2606398146411746
+
+	ro = 0.75
+	max czas symulacji = 1000
+Prawdopodobienstwo p0 = 0.2597125512811259
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.26327675417174606
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.2388937559617525
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.26937909452171827
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.25403683325965726
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.26073270289123135
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.2290515125787542
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.2416420703904558
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.27449067380102427
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.26102467600686213
+
+	ro = 0.75
+	max czas symulacji = 1200
+Prawdopodobienstwo p0 = 0.26206525141116144
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.22450536379759062
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.24767338664886712
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.2652011965502818
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.26739717855242157
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.24847982737749344
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.2268442767594373
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.2387900655348849
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.22758293391193457
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.24544240184264998
+
+	ro = 0.75
+	max czas symulacji = 1400
+Prawdopodobienstwo p0 = 0.24989704648853672
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.22625614250765672
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.267277101068794
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.25277070136815477
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.25518001050941796
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.21619872252600675
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.25945586344634913
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.2896636133624034
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.2607203156675994
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.24028942831664704
+
+	ro = 0.75
+	max czas symulacji = 1600
+Prawdopodobienstwo p0 = 0.2569260859153349
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.2344854171944677
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.2813032044404487
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.23692474778146172
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.2725382531867911
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.2471086550686591
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.27401452134896526
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.2576571664900369
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.24497073566588126
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.24649941655231575
+
+	ro = 0.75
+	max czas symulacji = 1800
+Prawdopodobienstwo p0 = 0.25321091652490113
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.2388644064853501
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.2402748318112304
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.23319916660915613
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.26047888218690984
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.2434322083048683
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.2758560860627088
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.2551071686755366
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.2523813479247541
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.2475983489892976
+
+	ro = 0.75
+	max czas symulacji = 2000
+Prawdopodobienstwo p0 = 0.25829461530207287
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.24305839042754646
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.26427854240531273
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.311042895858411
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.25013133915322316
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.21213821712803144
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.21569889046635413
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.232718724108261
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.2903671016696311
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.27613829607646556
+
+	ro = 0.75
+	max czas symulacji = 800
+Prawdopodobienstwo p0 = 0.2893671642807741
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.23381167613674797
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.2740468628134658
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.23803134675187704
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.2545563705528684
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.2666624306091479
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.16521271144114955
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.2380169657652215
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.25514054290945537
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.2582453155903158
+
+	ro = 0.75
+	max czas symulacji = 600
+Prawdopodobienstwo p0 = 0.27000113194827496
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.26864282569032527
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.27899068756363204
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.2425452419532343
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.22240228103026152
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.22833060261657445
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.2706968343417691
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.27354328169315173
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.26119745291490376
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.23734809272012344
+
+	ro = 0.75
+	max czas symulacji = 500
+Prawdopodobienstwo p0 = 0.25369241867611736
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.266388624619346
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.23958963885141416
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.18377063987953826
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.28857391953302874
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.2186308769700388
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.15878114067685228
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.2722720592954289
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.24589729328402476
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.24446695727796883
+
+	ro = 0.75
+	max czas symulacji = 400
+Prawdopodobienstwo p0 = 0.22436368570464107
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.2838427900437057
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.24794132004436895
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.2675750182658225
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.31784317878983565
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.22113791296046245
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.2559877611556759
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.33361673928363195
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.20621318819274986
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.22867652213512515
+
+	ro = 0.75
+	max czas symulacji = 200
+Prawdopodobienstwo p0 = 0.2131075499678529
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.24250436457185018
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.3002923152093321
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.24552395397972834
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.22821092372699436
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.3099899687366111
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.24337397736303182
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.2163389591514183
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.204393613277065
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.3325128695235013
+
+	ro = 0.75
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.274877146210816
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.33720286681168304
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.2673607129247139
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.2345173233402407
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.18967120391098571
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.4166978709544905
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.24844872614868183
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.21269372799353542
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.3347990845839312
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.14925145805580645
+
+	ro = 0.75
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.2279732023116179
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.3569654952219384
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.27562126669495085
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.14299805641410937
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.2290967787642745
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.34892517340755314
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.15918892744684077
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.2976393894141823
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.28189498372274674
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.1504962260264375
+
+	ro = 0.75
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.11787055609458941
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.22711928935851408
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.5511732206631912
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.4844886943669131
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.43512050821967424
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.14009370671818164
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.29825846672098305
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.15808503113373218
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.32483400487841446
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.3781159264820654
+
+	ro = 0.75
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.1701337371399452
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.2402623072612835
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.11836379742570353
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.4422108654182212
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.08958995206836619
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.3237474016369404
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.24675658241240406
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.4524750554252475
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.49341853070708613
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.0
+
+	ro = 0.75
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.11534149655618757
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.30513712484583483
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.007570824093963659
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.6054411948830118
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.3044439262507683
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.5701465802126519
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.43317423387947956
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.43230723929696924
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.39961617024793245
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.18794051890588567
+
+	ro = 0.75
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.6531860885313653
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.7785947848657981
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.009166612060683137
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.2603187238769492
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.15496733223710052
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.3472490264104079
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.25505939483141404
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.20095028727122008
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.7783705663472243
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.26205022652866644
+
+	ro = 0.75
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.5220433166058559
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.19149172851888974
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.01819357554221794
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.8594619249019444
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.18690277361326293
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.6417043335604934
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.6649913382059601
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.2637159156637112
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.46003546997478345
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.12501750997950326
+
+	ro = 0.75
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.7551380174945976
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.2652323318814394
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.14649494249508752
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.30501597151361265
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.31807151811813283
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.3683303351052655
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.13888225162733472
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.2201748743270023
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.2181683421682022
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.306733474886316
+
+	ro = 0.75
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.2149288810753113
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.9614533573133006
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.7521283528782288
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.710827015042056
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.0
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.7215571753075093
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.49784250429822813
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.4882380186937213
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.5083490096345367
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.9936147656965861
+
+	ro = 0.5
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.3065379166655531
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.5551705253535683
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.29721358227433164
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.6807838307794347
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.34789198841614505
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.6933622375545073
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.6412055245598763
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.47804526553934507
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.41811482531962213
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.027279510566145557
+
+	ro = 0.5
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.605059778997708
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.5281738709849535
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.5195404684454563
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.5632634193240819
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.4601526337115939
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.4279988063671796
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.40221084747953384
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.4763664080567122
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.490778902588939
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.6977389483553627
+
+	ro = 0.5
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.632473438146973
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.6037777299680217
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.5752349949572073
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.25111218550398184
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.577019394199844
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.46720679159324363
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.40087580764140074
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.38288889947976873
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.18497855500339921
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.6795605200503193
+
+	ro = 0.5
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.48445193201109044
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.5304434331348126
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.47642074059318223
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.6506626971790583
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.46727938275956094
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.6749234888626503
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.5583578961157406
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.6886339007911564
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.3361013009329285
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.7090950445888461
+
+	ro = 0.5
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.3485441328328966
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.2888561888888927
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.6322880834686914
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.39818880029378506
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.6217261050167434
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.6357774067422722
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.54977276300346
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.5752409052550876
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.5612789821528085
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.4300175595721917
+
+	ro = 0.5
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.6258772255013945
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.46211475022862225
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.472771852533494
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.503585433984077
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.6167293533662336
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.5127100028485845
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.37104581443301615
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.48027689223982295
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.40791245347084276
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.5562200833235216
+
+	ro = 0.5
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.5301924293391516
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.44073467895617263
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.5301073525997025
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.44807451720820396
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.44946851661011233
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.5715151198798194
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.4093995418713947
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.414970629460776
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.45775159830588347
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.49239010762079527
+
+	ro = 0.5
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.49572505923685184
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.5285333812813424
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.4898713549046435
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.49288500810516733
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.5253629262775122
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.46578144465741494
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.5480647095099758
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.5020608348744094
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.49603564636959824
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.4616629779765177
+
+	ro = 0.5
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.5310487867436385
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.7931460302204852
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.5220007026667804
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.949366612582916
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.8049676556602124
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.9892405261367051
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.8594135793696005
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.3815559691539937
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.6532270874092729
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.05630467378832375
+
+	ro = 0.25
+	max czas symulacji = 1
+Prawdopodobienstwo p0 = 0.633236060879053
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.5180617341432107
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.6190819339931196
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.3910917631134938
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.0
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.9406777336747696
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.8896488834433381
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.8105066875311266
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.9033176601233792
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.43326182157212645
+
+	ro = 0.25
+	max czas symulacji = 3
+Prawdopodobienstwo p0 = 0.5200501043403691
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.6857777107686098
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.8203374897404395
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.6912197976772553
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.6651818233011488
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.4075520441678599
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.7542326603905036
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.7179382754408442
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.8397154730101101
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.748130341596932
+
+	ro = 0.25
+	max czas symulacji = 5
+Prawdopodobienstwo p0 = 0.6742002322933365
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.7161636439730362
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.7384085904242164
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.6725260364929315
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.5998455598751117
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.741293127389247
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.8382518674151691
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.8340431084228578
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.6047892688319672
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.7522092132542387
+
+	ro = 0.25
+	max czas symulacji = 10
+Prawdopodobienstwo p0 = 0.9189246096650612
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.8511608649420567
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.8480344278596894
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.7724995421136873
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.8138713748468789
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.7160540495976303
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.8024316347247576
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.631330650489983
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.768385334869834
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.6939285715433033
+
+	ro = 0.25
+	max czas symulacji = 15
+Prawdopodobienstwo p0 = 0.7914181000797073
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7582864845463914
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7150043246247483
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7782519430414643
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7796870051866823
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7580633026612713
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.8570469530960806
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.6246936198471369
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7180602002021873
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7024919502860666
+
+	ro = 0.25
+	max czas symulacji = 25
+Prawdopodobienstwo p0 = 0.7352573685005604
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.7096498899865192
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.7614155833544402
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.7280698530639275
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.781261050439407
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.8298166361282073
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.7509427702638368
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.7847536118862815
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.7145545401672264
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.7089716177677324
+
+	ro = 0.25
+	max czas symulacji = 50
+Prawdopodobienstwo p0 = 0.808461089420487
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.7642106634124743
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.8210861904082148
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.7801897879381127
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.7416438547135938
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.7376615361666234
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.8106015427182865
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.7519646835999737
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.7831254707229952
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.790752645438156
+
+	ro = 0.25
+	max czas symulacji = 75
+Prawdopodobienstwo p0 = 0.7416417699891629
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7679017791287995
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7413290098369194
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7549382529698394
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7415949941001106
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7413511694162515
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7672718183462512
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7785035428310975
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7345977655932407
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7467546177412903
+
+	ro = 0.25
+	max czas symulacji = 100
+Prawdopodobienstwo p0 = 0.7134127566468978
+
+	ro = 0.25
+	max czas symulacji = 10000
+Prawdopodobienstwo p0 = 0.751260421219434
+

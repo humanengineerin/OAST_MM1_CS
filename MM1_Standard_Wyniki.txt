@@ -419,3 +419,138 @@ Srednia liczba klientow w buforze E[Q] = 2.2174499115535418	[Teoretycznie: Lq = 
 Srednia liczba klientow w systemie E[N] = : 2.9719863398186916	[Teoretycznie: L = 3.0 ]
 Prawdopodobienstwo p0 = 0.24546357173484615
 
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 10000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.24584099503978527	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.4958409950397852	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.4748196716919075	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 0.9667220292412777	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.5080976424506346
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.26523027561518236	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.5152302756151823	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.5043118239346737	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 1.018080900791974	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.486230923142707
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.24277048747403765	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.4927704874740376	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.44916767347342357	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 0.9427326605796349	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.5064350128937877
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.2545775141209288	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.5045775141209289	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.48930488091753616	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 0.9923641565641608	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.49694072435337916
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.23451667892212558	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.4845166789221256	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.4347036727462529	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 0.9274833451151712	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.5072203276310779
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.24633425900137598	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.496334259001376	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.4676934841238808	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 0.9645357258172239	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.5031577583066599
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.26825810315435966	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.5182581031543598	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.5120622215774874	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 1.031722587676015	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.48033963390147605
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.25043522288121756	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.5004352228812176	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.46329395723679945	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = : 0.9600533778495761	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.5032405793872221
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 STANDARD QUEUE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.2509615179838588	[Teoretycznie: Wq = 0.25]
+Œredni czas przejœcia przez system E[T] = 0.5009615179838588	[Teoretycznie: W = 0.5]
+Œrednia liczba klientów w buforze  E[Q] = 0.4748571246465307	[Teoretycznie: Lq = 0.5]
+Œrednia liczba klientów w systemie E[N] = 0.9733879210208745	[Teoretycznie: L = 1.0]
+Prawdopodobieñstwo p0 = 0.5014692036256572
+

@@ -6,7 +6,6 @@ class ListaZdarzen:
     def __init__(self, lista_zdarzen):
         self.lista_zdarzen = lista_zdarzen
 
-
     def put(self, typ, t_przyjscia, t_obslugi, t_nastepne):
         temp = Zdarzenie.Zdarzenie(typ = typ,
                                    t_przyjscia = t_przyjscia,
