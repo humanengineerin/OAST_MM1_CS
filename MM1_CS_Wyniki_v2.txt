@@ -1,0 +1,311 @@
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.20938215515214129Sredni czas przejscia przez system E[T] = 0.4593821551521413Srednia liczba klientow w buforze E[Q] = 0.2990682671269864Srednia liczba klientow w systemie E[N] = 0.5471949649469154Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7518733021800654
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.2140700991874138Sredni czas przejscia przez system E[T] = 0.46407009918741376Srednia liczba klientow w buforze E[Q] = 0.30632645686551546Srednia liczba klientow w systemie E[N] = 0.558427663750042Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7478987931154683
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.20842505447552667Sredni czas przejscia przez system E[T] = 0.45842505447552667Srednia liczba klientow w buforze E[Q] = 0.30238510706290683Srednia liczba klientow w systemie E[N] = 0.5513670180441881Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7510180890187146
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.20637571539990757Sredni czas przejscia przez system E[T] = 0.45637571539990757Srednia liczba klientow w buforze E[Q] = 0.2988891773734903Srednia liczba klientow w systemie E[N] = 0.5460949691092275Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7527942082642627
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.20004444940406912Sredni czas przejscia przez system E[T] = 0.4500444494040691Srednia liczba klientow w buforze E[Q] = 0.29249433805644554Srednia liczba klientow w systemie E[N] = 0.5384626489190156Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7540316891374299
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.20886381999898312Sredni czas przejscia przez system E[T] = 0.4588638199989832Srednia liczba klientow w buforze E[Q] = 0.30009980125426244Srednia liczba klientow w systemie E[N] = 0.5481312467778064Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7519685544764597
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.20459211964191765Sredni czas przejscia przez system E[T] = 0.4545921196419177Srednia liczba klientow w buforze E[Q] = 0.2959396619716416Srednia liczba klientow w systemie E[N] = 0.5438995471119313Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7520401148597109
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.2103654891983254Sredni czas przejscia przez system E[T] = 0.4603654891983253Srednia liczba klientow w buforze E[Q] = 0.309378114499442Srednia liczba klientow w systemie E[N] = 0.5646385741913379Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7447395403081047
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.20095692817539604Sredni czas przejscia przez system E[T] = 0.450956928175396Srednia liczba klientow w buforze E[Q] = 0.2956622352702035Srednia liczba klientow w systemie E[N] = 0.5426667536186938Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7529954816515088
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 1
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.21171277655902096Sredni czas przejscia przez system E[T] = 0.46171277655902093Srednia liczba klientow w buforze E[Q] = 0.3060715019401681Srednia liczba klientow w systemie E[N] = 0.5581899127352992Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.7478815892048674
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.38445905615394643Sredni czas przejscia przez system E[T] = 0.6344590561539473Srednia liczba klientow w buforze E[Q] = 0.8983540018943327Srednia liczba klientow w systemie E[N] = 1.4063368300076606Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.49201717188667193
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.3689368772715093Sredni czas przejscia przez system E[T] = 0.6189368772715094Srednia liczba klientow w buforze E[Q] = 0.8597183388101127Srednia liczba klientow w systemie E[N] = 1.355622600066786Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.504095738743328
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.3919514174765616Sredni czas przejscia przez system E[T] = 0.641951417476566Srednia liczba klientow w buforze E[Q] = 0.9058519164741474Srednia liczba klientow w systemie E[N] = 1.4018536918484723Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.5039982246256686
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.3722982105416019Sredni czas przejscia przez system E[T] = 0.6222982105415995Srednia liczba klientow w buforze E[Q] = 0.8739159205964597Srednia liczba klientow w systemie E[N] = 1.3746918057240878Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.4992241148723755
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.37470732429191217Sredni czas przejscia przez system E[T] = 0.6247073242919132Srednia liczba klientow w buforze E[Q] = 0.8806478211605412Srednia liczba klientow w systemie E[N] = 1.3879051420923258Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.49274267906820957
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.36970619004237265Sredni czas przejscia przez system E[T] = 0.6197061900423725Srednia liczba klientow w buforze E[Q] = 0.8583689742401734Srednia liczba klientow w systemie E[N] = 1.3548735992688945Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.5034953749712768
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.3817122096242915Sredni czas przejscia przez system E[T] = 0.6317122096242916Srednia liczba klientow w buforze E[Q] = 0.8980955131477838Srednia liczba klientow w systemie E[N] = 1.4064361590158487Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.4916593541319401
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.3800305911106276Sredni czas przejscia przez system E[T] = 0.6300305911106271Srednia liczba klientow w buforze E[Q] = 0.8843829140167301Srednia liczba klientow w systemie E[N] = 1.380746190782571Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.5036367232341538
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.36340505939878065Sredni czas przejscia przez system E[T] = 0.6134050593987818Srednia liczba klientow w buforze E[Q] = 0.8484544164625082Srednia liczba klientow w systemie E[N] = 1.346931588280134Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.5015228281823692
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 2
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.39635847854719186Sredni czas przejscia przez system E[T] = 0.646358478547193Srednia liczba klientow w buforze E[Q] = 0.9070592791065265Srednia liczba klientow w systemie E[N] = 1.4086762171409288Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.4983830619655963
+
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.8960637208124789
+Sredni czas przejscia przez system E[T] = 1.1460637208124824
+Srednia liczba klientow w buforze E[Q] = 2.8098322398805062
+Srednia liczba klientow w systemie E[N] = 3.563961460863824
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.24587077901667773
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.7900332303842937
+Sredni czas przejscia przez system E[T] = 1.040033230384295
+Srednia liczba klientow w buforze E[Q] = 2.4673045046007376
+Srednia liczba klientow w systemie E[N] = 3.2114852043875612
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.25581930021317384
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.8238925949406517
+Sredni czas przejscia przez system E[T] = 1.07389259494065
+Srednia liczba klientow w buforze E[Q] = 2.5547396586599844
+Srednia liczba klientow w systemie E[N] = 3.293965650480841
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.2607740081791342
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.9046802741678438
+Sredni czas przejscia przez system E[T] = 1.1546802741678341
+Srednia liczba klientow w buforze E[Q] = 2.814950922201948
+Srednia liczba klientow w systemie E[N] = 3.570827077533335
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.2441238446686152
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.8751543225918313
+Sredni czas przejscia przez system E[T] = 1.1251543225918268
+Srednia liczba klientow w buforze E[Q] = 2.6970583884632835
+Srednia liczba klientow w systemie E[N] = 3.439735146309418
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.2573232421538645
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.8407479046292498
+Sredni czas przejscia przez system E[T] = 1.0907479046292516
+Srednia liczba klientow w buforze E[Q] = 2.615814986053561
+Srednia liczba klientow w systemie E[N] = 3.364310446179283
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.25150453987427873
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.9366441199897428
+Sredni czas przejscia przez system E[T] = 1.186644119989744
+Srednia liczba klientow w buforze E[Q] = 2.9127765910434165
+Srednia liczba klientow w systemie E[N] = 3.664052449048529
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.24872414199488824
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.8765792627098176
+Sredni czas przejscia przez system E[T] = 1.126579262709821
+Srednia liczba klientow w buforze E[Q] = 2.7221740846031808
+Srednia liczba klientow w systemie E[N] = 3.4708541314995154
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.25131995310366056
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.8535575622645253
+Sredni czas przejscia przez system E[T] = 1.1035575622645215
+Srednia liczba klientow w buforze E[Q] = 2.6741178163520223
+Srednia liczba klientow w systemie E[N] = 3.421346335396118
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.2527714809558997
+
+---------- DANE SYMULACJI ----------
+
+mi = 4
+lam = 3
+max czas symulacji = 10000
+---------- WYNIKI SYMULACJI - MM1 CONTINOUOUS SERVICE - SREDNI CZAS OBSLUGI IMAG - 1/mi----------
+
+Sredni czas oczekiwania na obsluge E[W] = 0.9033553186884606
+Sredni czas przejscia przez system E[T] = 1.1533553186884586
+Srednia liczba klientow w buforze E[Q] = 2.8044595050833707
+Srednia liczba klientow w systemie E[N] = 3.5554892734250036
+Prawdopodobiestwo, ze serwer jest zajety obslug¹ IMAGINARY (wzgl. czasu symulacji) = 0.24897023165836538
+

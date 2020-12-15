@@ -30,7 +30,7 @@ class StandardQueue:
         self.odst_mdz_zgl = odst_mdz_zgl
 
 ##############################
-# Metody generujace losowe czasy
+    # Metody generujace losowe czasy i liczące niezbędne parametry
 
     def gen_t_obslugi(self):
         return -np.log(1 - np.random.random()) / self.mi
@@ -40,7 +40,7 @@ class StandardQueue:
 
     def obl_sr_licz_kl_w_buf(self):
         suma = 0
-        for i in range(1000, len(self.ile_zdarzen) - 1):
+        for i in range(len(self.ile_zdarzen) - 1):
             suma += ((self.lista_czasow[i + 1] - self.lista_czasow[i]) * self.ile_zdarzen[i])
         return suma / self.acs
 
@@ -109,6 +109,7 @@ class StandardQueue:
                 self.acs = self.lista_zdarzen[0].t_przyjscia  # aktualny czas = czas przyjscia nastepnego zdarzenia
 
         # Wyświetlenie wyników
+        # E[W] = Wq; E[T] = W; E[Q] = Lq; E[N] = L
         print("-"*40 + "\n\nŚredni czas oczekiwania na obsługę E[W] = "
               + str(self.obl_sr_czas_ocz_na_obs())
               + "\t[Teoretycznie: Wq = " + str(self.ro ** 2 / (self.lam * (1 - self.ro))) + "]\n"
