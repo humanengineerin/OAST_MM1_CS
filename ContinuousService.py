@@ -31,7 +31,7 @@ class ContinuousService:
         self.odst_mdz_zgl = odst_mdz_zgl
 
 ########################################################
-# Metody generujace losowe czasy
+    # Metody generujace losowe czasy i liczące niezbędne parametry
 
     def gen_t_obslugi(self):
         return -np.log(1 - np.random.random()) / self.mi
@@ -105,9 +105,9 @@ class ContinuousService:
 
                 self.acs += zdarzenie.t_obslugi  # Aktualny czas zwiększam o czas obsługi zdarzenia
             else:
-                self.lista.put(tz[1], self.acs, self.gen_t_obslugi(), self.gen_t_przyjscia())
-                self.lista.sortuj_liste(self.lista_zdarzen)
-                self.acs = self.lista_zdarzen[0].t_przyjscia
+                self.lista.put(tz[1], self.acs, self.gen_t_obslugi(), self.gen_t_przyjscia())   # dla ostatniego punktu zadania
+                self.lista.sortuj_liste(self.lista_zdarzen)                                     # w put(): t_obslugi = 1/mi
+                self.acs = self.lista_zdarzen[0].t_przyjscia                                    # MM1_CS_Wyniki_v2.txt
 
                 zdarzenie = self.lista.get()
 
@@ -115,6 +115,7 @@ class ContinuousService:
                 self.acs += zdarzenie.t_obslugi
 
         # Wyświetlenie wyników
+        # E[W] = Wq; E[T] = W; E[Q] = Lq; E[N] = L
         print("-"*40 + "\n\nŚredni czas oczekiwania na obsługę E[W] = "
               + str(self.obl_sr_czas_ocz_na_obs())
               + "\t[Teoretycznie: Wq = " + str(self.ro / (self.lam * (1-self.ro))) + "]\n"

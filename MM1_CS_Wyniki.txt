@@ -500,3 +500,35 @@ Prawdopodobieñstwo, ¿e serwer jest zajêty obs³ug¹ klienta typu IMAGINARY (wzgl. 
 Prawdopodobieñstwo, ¿e serwer jest zajêty obs³ug¹ klienta typu IMAGINARY (wzgl. czasu symulacji) = 0.49959716930773257
 
 
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 1
+	ro = 0.25
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 CONTINUOUS SERVICE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.3336164907417784	[Teoretycznie: Wq = 0.3333333333333333 ]
+Œredni czas przejœcia przez system E[T] = 0.5836164907417785	[Teoretycznie: W = 0.5833333333333334 ]
+Œrednia liczba klientow w buforze  E[Q] = 0.3403633789517861	[Teoretycznie: Lq = 0.3333333333333333 ]
+Œrednia liczba klientów w systemie E[N] = 0.5949886912762282	[Teoretycznie: L = 0.5833333333333334 ]
+Prawdopodobieñstwo, ¿e serwer jest zajêty obs³ug¹ klienta typu IMAGINARY (wzgl. czasu symulacji) = 0.7453746876755593
+
+
+---------- DANE SYMULACJI ----------
+
+	mi = 4
+	lam = 2
+	ro = 0.5
+	max czas symulacji = 6000
+
+---------- WYNIKI SYMULACJI - M/M/1 CONTINUOUS SERVICE ----------
+
+Œredni czas oczekiwania na obs³ugê E[W] = 0.5062421543846133	[Teoretycznie: Wq = 0.5 ]
+Œredni czas przejœcia przez system E[T] = 0.7562421543846071	[Teoretycznie: W = 0.75 ]
+Œrednia liczba klientow w buforze  E[Q] = 1.0074560798864214	[Teoretycznie: Lq = 1.0 ]
+Œrednia liczba klientów w systemie E[N] = 1.511989831744041	[Teoretycznie: L = 1.5 ]
+Prawdopodobieñstwo, ¿e serwer jest zajêty obs³ug¹ klienta typu IMAGINARY (wzgl. czasu symulacji) = 0.49546624814237433
+
+

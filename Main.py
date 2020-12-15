@@ -5,11 +5,12 @@ from ContinuousService import ContinuousService
 if __name__ == "__main__":
 
     # Parametry początkowe symulacji
-    MAX_CZAS_SYMULACJI = 6000
-    while True:
+    MAX_CZAS_SYMULACJI = 10000
+    lam = -1
+    while lam not in [1, 2, 3]:
         lam = int(input("\nProszę wprowadzić wartość lambda wybierając z {1,2,3}: "))
         if lam in [1, 2, 3]:
-            break
+            print("lambda = " + str(lam))
         else:
             print("Wybrano nieprawidłową wartość lambda. Proszę spróbować ponownie.\n")
     mi = 4
@@ -56,13 +57,13 @@ if __name__ == "__main__":
     )
 
     # Uruchomienie symulacji
-    while True:
-        kolejka = input("\nProszę wybrać rodzaj kolejki do symulacji, wpisując odpowiednią cyfrę, gdzie:\n"
-                        "   1) Standardowa kolejka M/M/1  2) Kolejka M/M/1 Continuous Service: ")
-        if kolejka == "1":
+    kolejka = -1
+    while kolejka not in [1, 2]:
+        kolejka = int(input("\nProszę wybrać rodzaj kolejki do symulacji, wpisując odpowiednią cyfrę, gdzie:\n"
+                        "   1) Standardowa kolejka M/M/1  2) Kolejka M/M/1 Continuous Service: "))
+        if kolejka == 1:
             wynik_standard = standard.uruchom_MM1()
-            break
-        elif kolejka == "2":
+        elif kolejka == 2:
             wynik_continuous = continuous_service.uruchom_MM1CS()
         else:
             print("Wprowadzono nieprawidłowy numer wyboru kolejki. Proszę spróbować ponownie.\n")
