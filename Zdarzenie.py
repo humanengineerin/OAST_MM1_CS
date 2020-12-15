@@ -5,4 +5,3 @@ class Zdarzenie(object):
         self.t_przyjscia = t_przyjscia
         self.t_obslugi = t_obslugi
         self.t_nastepne = t_nastepne
-
