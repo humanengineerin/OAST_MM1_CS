@@ -25,8 +25,8 @@ class ContinuousService:
         self.lista_zdarzen = list()
         self.lista = ListaZdarzen.ListaZdarzen(self.lista_zdarzen)  # Obiekt listy zdarzen
 
-        self.lista_czasow = list()  # test
-        self.ile_zdarzen = list()  # test
+        self.lista_czasow = list()
+        self.ile_zdarzen = list()
 
         self.odst_mdz_zgl = odst_mdz_zgl
 
@@ -95,7 +95,7 @@ class ContinuousService:
             if self.acs >= self.lista_zdarzen[0].t_przyjscia:
 
                 zdarzenie = self.lista.get()  # Obsługuje zdarzenie, usuwam z listy zdarzeń
-                zdarzen_w_kolejce -= 1  # Czy potrzebne?
+                zdarzen_w_kolejce -= 1
                 self.obsluzonych_zdarzen += 1
 
                 self.czas_obslugi_real += zdarzenie.t_obslugi
@@ -104,13 +104,6 @@ class ContinuousService:
                 self.czasy_rozpoczecia.append(self.acs)
 
                 self.acs += zdarzenie.t_obslugi  # Aktualny czas zwiększam o czas obsługi zdarzenia
-
-                # print("Aktualny czas (rozp. obslugi): " + str(acs))
-                # print("Czas przyjscia: " + str(zdarzenie.t_przyjscia))
-                # print("Czas do następnego zdarzenia: " + str(zdarzenie.t_nastepne))
-                # print("Czas obsługi: " + str(zdarzenie.t_obslugi))
-                # print()
-
             else:
                 self.lista.put(tz[1], self.acs, self.gen_t_obslugi(), self.gen_t_przyjscia())
                 self.lista.sortuj_liste(self.lista_zdarzen)
@@ -120,12 +113,6 @@ class ContinuousService:
 
                 self.czas_obslugi_imag += zdarzenie.t_obslugi
                 self.acs += zdarzenie.t_obslugi
-
-        #     print("OBSLUGUJE IMAGIARY!!!")
-        #
-        # print("Na liście znajduje się: " + str(zdarzen_w_kolejce) + " zdarzenia")
-        #
-        # print("Czas po obsłudze: " + str(acs))
 
         # Wyświetlenie wyników
         print("-"*40 + "\n\nŚredni czas oczekiwania na obsługę E[W] = "
@@ -146,7 +133,6 @@ class ContinuousService:
 
               + "Prawdopodobieństwo, że serwer jest zajęty obsługą klienta typu IMAGINARY (wzgl. czasu symulacji) = "
               + str(self.czas_obslugi_imag/self.acs) + "\n\n" + "-"*40)
-
 
         # Zapis do pliku
         do_pliku = open("MM1_CS_Wyniki.txt", 'a')

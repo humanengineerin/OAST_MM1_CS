@@ -24,8 +24,8 @@ class StandardQueue:
         self.lista_zdarzen = list()
         self.lista = ListaZdarzen.ListaZdarzen(self.lista_zdarzen)  # Obiekt listy zdarzen
 
-        self.lista_czasow = list()  # test
-        self.ile_zdarzen = list()  # test
+        self.lista_czasow = list()
+        self.ile_zdarzen = list()
 
         self.odst_mdz_zgl = odst_mdz_zgl
 
@@ -94,7 +94,7 @@ class StandardQueue:
             if self.acs >= self.lista_zdarzen[0].t_przyjscia:
 
                 zdarzenie = self.lista.get()  # Obsługuje zdarzenie, usuwam z listy zdarzeń
-                zdarzen_w_kolejce -= 1  # Czy potrzebne?
+                zdarzen_w_kolejce -= 1
                 self.obsluzonych_zdarzen += 1
 
                 self.czas_obslugi_real += zdarzenie.t_obslugi
@@ -103,23 +103,10 @@ class StandardQueue:
                 self.czasy_rozpoczecia.append(self.acs)
 
                 self.acs += zdarzenie.t_obslugi  # Aktualny czas zwiększam o czas obsługi zdarzenia
-
-                # print("Aktualny czas (rozp. obslugi): " + str(acs))
-                # print("Czas przyjscia: " + str(zdarzenie.t_przyjscia))
-                # print("Czas do następnego zdarzenia: " + str(zdarzenie.t_nastepne))
-                # print("Czas obsługi: " + str(zdarzenie.t_obslugi))
-                # print()
-
             else:
                 self.lista.sortuj_liste(self.lista_zdarzen)
                 self.czas_p_zero += self.lista_zdarzen[0].t_przyjscia - self.acs  # licze czas trwania stanu p0
-                self.acs = self.lista_zdarzen[0].t_przyjscia  # aktualny czas ustawiam = czas przyjscia nastepnego zdarzenia
-
-            #     print("NIE OBSLUGUJE ZDARZENIA!!!")
-            #
-            # print("Na liście znajduje się: " + str(zdarzen_w_kolejce) + " zdarzenia")
-            #
-            # print("Czas po obsłudze: " + str(acs))
+                self.acs = self.lista_zdarzen[0].t_przyjscia  # aktualny czas = czas przyjscia nastepnego zdarzenia
 
         # Wyświetlenie wyników
         print("-"*40 + "\n\nŚredni czas oczekiwania na obsługę E[W] = "

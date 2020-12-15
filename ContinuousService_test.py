@@ -108,7 +108,7 @@ while acs <= max_czas_symulacji:
     if acs >= lista_zdarzen[0].t_przyjscia:
 
         zdarzenie = lista.get()         # Obsługuje zdarzenie, usuwam z listy zdarzeń
-        zdarzen_w_kolejce -= 1          # Czy potrzebne?
+        zdarzen_w_kolejce -= 1
         obsluzonych_zdarzen += 1
 
         czas_obslugi_real += zdarzenie.t_obslugi
@@ -134,10 +134,7 @@ while acs <= max_czas_symulacji:
         czas_obslugi_imag += zdarzenie.t_obslugi
         acs += zdarzenie.t_obslugi
 
-    #     print("OBSLUGUJE IMAGIARY!!!")
-    #
     # print("Na liście znajduje się: " + str(zdarzen_w_kolejce) + " zdarzenia")
-    #
     # print("Czas po obsłudze: " + str(acs))
 
 # Wyświetlenie wyników
